@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "KorailRoundGothicBold";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KorailRoundGothicBold.woff2")
+      format("woff2");
+  }
+  body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  
+  nav {
+    width: 100vw;
+    position: fixed;
+    height: 62px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+  }
+  button {
+    cursor: pointer;
+  }
+  .catbox {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  .categories {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .caBtn {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    color: #74747b;
+  }
+  #logoLink {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    font-weight: bold;
+  }
+  .search-1 {
+    width: 40vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  #search-3 {
+    background: #f5f5f7
+      url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIyIDIyIj4KICAgIDxwYXRoIGZpbGw9IiNCQUJBQzMiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuODE0IDE1LjczNWMtMy4yMDcgMC01LjgxNy0yLjYzLTUuODE3LTUuODYxIDAtMy4yMzMgMi42MS01Ljg2MiA1LjgxNy01Ljg2MiAzLjIwNyAwIDUuODE4IDIuNjMgNS44MTggNS44NjJzLTIuNjEgNS44Ni01LjgxOCA1Ljg2bTkuODQxIDIuNTRsLTMuNjYtMy43MDRjLjk4LTEuMzEgMS41NzEtMi45MzIgMS41NzEtNC42OTYgMC00LjMwOC0zLjQ3OC03LjgxMi03Ljc1Mi03LjgxMi00LjI3NCAwLTcuNzUyIDMuNTA0LTcuNzUyIDcuODEyIDAgNC4zMDcgMy40NzggNy44MSA3Ljc1MiA3LjgxIDEuODI5IDAgMy41MDctLjY0NCA0LjgzNC0xLjcxNGwzLjYzNyAzLjY4Yy4xODIuMTg2LjQyNi4yODguNjg1LjI4OC4yNTcgMCAuNS0uMS42ODMtLjI4NC4xODItLjE4NC4yODQtLjQzLjI4NS0uNjkgMC0uMjYtLjEtLjUwNS0uMjgzLS42OSIvPgo8L3N2Zz4K)
+      no-repeat 9px 8px;
+    display: flex;
+    align-items: center;
+    width: 322px;
+    height: 38px;
+    padding: 7px 10px 8px 36px;
+    border-radius: 2px;
+  }
+  #search-4 {
+    background-color: #f5f5f7;
+    border: none;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 322px;
+    font-weight: 400px;
+    outline: none;
+  }
+  #loginBtn {
+    background-color: white;
+    border: none;
+    color: #74747b;
+    font-size: 14px;
+  }
+  #signinBtn {
+    background-color: white;
+    color: #353535;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 14px 6px 14px;
+    border: 1px solid rgba(116, 116, 123, 0.5);
+    margin: 15px 0;
+    border-radius: 6px;
+  }
+  .lsLi {
+    margin-left: 20px;
+  }
